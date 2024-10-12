@@ -1,0 +1,68 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@inject IHttpClientFactory factory
+@inject Token tokenInfo
+
+<PageTitle>Home</PageTitle>
+
+@if (isLoggedIn)
+{
+    <h1>You are Logged In</h1>
+    <button class="btn btn-danger" @onclick="LogOut">Log Out</button>
+}
+else
+{
+    <h1>Please Log In</h1>
+
+    <EditForm FormName="Authentication" Model="login" OnValidSubmit="HandleValidSubmit">
+        <InputText @bind-Value="login.UserName"></InputText>
+        <InputText type="password" @bind-Value="login.Password"></InputText>
+
+        <button class="btn btn-success" type="submit">Log In</button>
+    </EditForm>
+}
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="h3">
+        <p>@errorMessage</p>
+    </div>
+}
+
+@code
+{
+    private readonly Authentication login = new();
+    private bool isLoggedIn;
+    private string errorMessage = String.Empty;
+
+    protected override void OnInitialized()
+    {
+        isLoggedIn = !string.IsNullOrEmpty(tokenInfo.TokenValue) && !string.IsNullOrWhiteSpace(tokenInfo.TokenValue);
+    }
+
+    private async void HandleValidSubmit()
+    {
+        try
+        {
+            var client = factory.CreateClient("todoApi");
+            var info = await client.PostAsJsonAsync("Authentication/token", login);
+
+            tokenInfo.TokenValue = await info.Content.ReadAsStringAsync();
+            isLoggedIn = true;
+
+        }
+        catch (Exception e)             
+        {
+            isLoggedIn = false;
+            errorMessage = e.Message;
+        }
+
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private void LogOut()
+    {
+        tokenInfo.TokenValue = string.Empty;
+        isLoggedIn = false;
+    }
+}

@@ -1,0 +1,504 @@
+2024-08-19 20:54:40.310 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 20:54:40.451 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 20:54:40.452 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 20:54:40.454 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 20:54:40.454 +02:00 [INF] Hosting environment: Development
+2024-08-19 20:54:40.455 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 20:54:40.907 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 20:54:41.021 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 116.4259ms
+2024-08-19 20:54:41.119 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 20:54:41.148 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.6515ms
+2024-08-19 20:54:45.382 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7215/api/authentication/token - application/json 65
+2024-08-19 20:54:45.441 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-19 20:54:45.454 +02:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationDate) on controller TodoApi.Controllers.AuthenticationController (TodoApi).
+2024-08-19 20:54:45.483 +02:00 [INF] Executing action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) - Validation state: "Valid"
+2024-08-19 20:54:45.484 +02:00 [INF] Authentication started
+2024-08-19 20:54:45.487 +02:00 [INF] Authentication completed successfully
+2024-08-19 20:54:45.523 +02:00 [INF] Executed action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 36.1031ms.
+2024-08-19 20:54:45.531 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-08-19 20:54:45.535 +02:00 [INF] Executed action TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) in 77.2294ms
+2024-08-19 20:54:45.536 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-19 20:54:45.537 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7215/api/authentication/token - 200 null text/plain; charset=utf-8 155.644ms
+2024-08-19 21:05:01.463 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:05:01.626 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:05:01.627 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:05:01.629 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:05:01.630 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:05:01.630 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:05:02.093 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:05:02.202 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 109.2383ms
+2024-08-19 21:05:02.309 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:05:02.326 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.666ms
+2024-08-19 21:06:13.086 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:06:13.088 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.9023ms
+2024-08-19 21:09:46.429 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:09:46.581 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:09:46.582 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:09:46.584 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:09:46.585 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:09:46.585 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:09:46.867 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:09:46.965 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 98.391ms
+2024-08-19 21:09:47.000 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.css - null null
+2024-08-19 21:09:47.000 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:09:47.008 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 7.7635ms
+2024-08-19 21:09:47.017 +02:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2024-08-19 21:09:47.018 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.css - 200 202 text/css 17.9796ms
+2024-08-19 21:09:47.124 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:09:47.149 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.1082ms
+2024-08-19 21:09:49.291 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:09:49.293 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.4239ms
+2024-08-19 21:09:49.317 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - null null
+2024-08-19 21:09:49.409 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-19 21:09:49.413 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-19 21:09:49.414 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - 401 0 null 96.6787ms
+2024-08-19 21:11:10.140 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:11:10.285 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:11:10.286 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:11:10.288 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:11:10.288 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:11:10.289 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:11:10.702 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:11:10.790 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 89.2029ms
+2024-08-19 21:11:10.816 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:11:10.820 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 3.5596ms
+2024-08-19 21:11:10.910 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:11:10.938 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.8085ms
+2024-08-19 21:11:12.831 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:11:12.835 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.0164ms
+2024-08-19 21:12:39.285 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:12:39.290 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 5.5045ms
+2024-08-19 21:12:39.300 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:12:39.303 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 2.6613ms
+2024-08-19 21:12:39.395 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:12:39.397 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1.9743ms
+2024-08-19 21:18:24.799 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:18:24.940 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:18:24.941 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:18:24.943 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:18:24.943 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:18:24.944 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:18:25.556 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:18:25.649 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 94.6886ms
+2024-08-19 21:18:25.676 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:18:25.683 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 7.1926ms
+2024-08-19 21:18:25.773 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:18:25.825 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.TodosController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:18:25.838 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 65.229ms
+2024-08-19 21:21:15.595 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:21:15.728 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:21:15.729 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:21:15.733 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:21:15.733 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:21:15.734 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:21:16.259 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:21:16.340 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 81.3263ms
+2024-08-19 21:21:16.360 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:21:16.364 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 3.0818ms
+2024-08-19 21:21:16.445 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:21:16.467 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.356ms
+2024-08-19 21:21:55.750 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:21:55.879 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:21:55.880 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:21:55.881 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:21:55.882 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:21:55.883 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:21:56.396 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:21:56.483 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 88.1268ms
+2024-08-19 21:21:56.513 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:21:56.517 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 3.6549ms
+2024-08-19 21:21:56.599 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:21:56.623 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.8842ms
+2024-08-19 21:22:22.108 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:22:22.318 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:22:22.319 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:22:22.321 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:22:22.322 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:22:22.323 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:22:22.852 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:22:22.972 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 110.1042ms
+2024-08-19 21:22:22.991 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:22:22.995 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 3.9792ms
+2024-08-19 21:22:23.083 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:22:23.142 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.TodosController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:22:23.158 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 75.5596ms
+2024-08-19 21:28:01.242 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:28:01.433 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:28:01.435 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:28:01.437 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:28:01.437 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:28:01.438 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:28:01.728 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:28:01.854 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 129.5415ms
+2024-08-19 21:28:01.883 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:28:01.887 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 4.5941ms
+2024-08-19 21:28:01.991 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:28:02.014 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.5434ms
+2024-08-19 21:28:52.664 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:28:52.851 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:28:52.861 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:28:52.863 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:28:52.863 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:28:52.863 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:28:53.124 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:28:53.234 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 111.1683ms
+2024-08-19 21:28:53.260 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:28:53.264 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 4.4886ms
+2024-08-19 21:28:53.370 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:28:53.394 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.2826ms
+2024-08-19 21:29:31.152 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:29:31.348 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:29:31.349 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:29:31.352 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:29:31.352 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:29:31.353 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:29:31.531 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:29:31.679 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 138.9367ms
+2024-08-19 21:29:31.701 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:29:31.705 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 4.8171ms
+2024-08-19 21:29:31.812 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:29:31.883 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.TodosController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:29:31.898 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 86.3355ms
+2024-08-19 21:30:16.892 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:30:17.043 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:30:17.050 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:30:17.054 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:30:17.054 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:30:17.054 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:30:17.546 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:30:17.628 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 82.9992ms
+2024-08-19 21:30:17.652 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:30:17.657 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 4.8059ms
+2024-08-19 21:30:17.737 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:30:17.801 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.TodosController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:30:17.813 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 75.8919ms
+2024-08-19 21:31:45.086 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:31:45.225 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:31:45.227 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:31:45.229 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:31:45.229 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:31:45.230 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:31:45.740 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:31:45.833 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 90.7445ms
+2024-08-19 21:31:45.852 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:31:45.855 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 3.029ms
+2024-08-19 21:31:45.938 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:31:46.001 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.TodosController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:31:46.014 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 75.321ms
+2024-08-19 21:32:47.587 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:32:47.726 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:32:47.729 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:32:47.731 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:32:47.731 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:32:47.732 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:32:48.176 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:32:48.278 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 102.5169ms
+2024-08-19 21:32:48.299 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:32:48.305 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 5.3824ms
+2024-08-19 21:32:48.391 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:32:48.450 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.TodosController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:32:48.463 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 72.6296ms
+2024-08-19 21:34:21.054 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:34:21.205 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:34:21.207 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:34:21.209 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:34:21.209 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:34:21.210 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:34:21.590 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:34:21.712 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 122.5705ms
+2024-08-19 21:34:21.735 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:34:21.739 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 4.2797ms
+2024-08-19 21:34:21.815 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/favicon-16x16.png - null null
+2024-08-19 21:34:21.825 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-08-19 21:34:21.826 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/favicon-16x16.png - 200 665 image/png 10.4376ms
+2024-08-19 21:34:21.837 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:34:21.901 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.TodosController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:34:21.916 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 79.019ms
+2024-08-19 21:34:49.949 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:34:50.104 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:34:50.105 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:34:50.107 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:34:50.108 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:34:50.108 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:34:50.572 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:34:50.660 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 88.2869ms
+2024-08-19 21:34:50.679 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:34:50.682 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 3.3527ms
+2024-08-19 21:34:50.772 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:34:50.792 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.9226ms
+2024-08-19 21:36:01.878 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:36:02.030 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:36:02.031 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:36:02.033 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:36:02.034 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:36:02.035 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:36:02.575 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:36:02.660 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 86.0116ms
+2024-08-19 21:36:02.681 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:36:02.685 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 3.701ms
+2024-08-19 21:36:02.781 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:36:02.845 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.TodosController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:36:02.859 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 78.3557ms
+2024-08-19 21:42:00.997 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:42:01.133 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:42:01.134 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:42:01.135 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:42:01.136 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:42:01.136 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:42:01.659 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:42:01.744 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 86.014ms
+2024-08-19 21:42:01.768 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:42:01.773 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 4.9139ms
+2024-08-19 21:42:01.860 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:42:01.915 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.TodosController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:42:01.928 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 67.909ms
+2024-08-19 21:42:23.709 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:42:23.858 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:42:23.862 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:42:23.864 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:42:23.865 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:42:23.866 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:42:24.089 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:42:24.195 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 106.8311ms
+2024-08-19 21:42:24.229 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:42:24.233 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 4.1079ms
+2024-08-19 21:42:24.329 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:42:24.393 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.TodosController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:42:24.406 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 76.9013ms
+2024-08-19 21:43:48.787 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:43:48.924 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:43:48.925 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:43:48.926 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:43:48.927 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:43:48.927 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:43:49.505 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:43:49.591 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 86.0612ms
+2024-08-19 21:43:49.614 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:43:49.617 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 3.5368ms
+2024-08-19 21:43:49.704 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:43:49.725 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.837ms
+2024-08-19 21:44:04.727 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:44:04.867 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:44:04.868 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:44:04.870 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:44:04.874 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:44:04.875 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:44:05.000 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:44:05.091 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 92.0553ms
+2024-08-19 21:44:05.113 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:44:05.116 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 3.3391ms
+2024-08-19 21:44:05.206 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:44:05.256 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.AuthenticationController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:44:05.270 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 64.4587ms
+2024-08-19 21:44:54.236 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:44:54.393 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:44:54.394 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:44:54.396 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:44:54.397 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:44:54.398 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:44:54.972 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:44:55.063 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 91.6151ms
+2024-08-19 21:44:55.084 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:44:55.088 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 4.1137ms
+2024-08-19 21:44:55.177 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:44:55.231 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.AuthenticationController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:44:55.245 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 67.8493ms
+2024-08-19 21:45:50.272 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:45:50.408 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:45:50.409 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:45:50.410 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:45:50.411 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:45:50.412 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:45:50.598 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:45:50.694 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 96.9146ms
+2024-08-19 21:45:50.715 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:45:50.718 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 2.8988ms
+2024-08-19 21:45:50.801 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:45:50.851 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.AuthenticationController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:45:50.877 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 76.905ms
+2024-08-19 21:46:33.092 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:46:33.235 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:46:33.237 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:46:33.238 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:46:33.239 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:46:33.239 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:46:33.420 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:46:33.540 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 120.019ms
+2024-08-19 21:46:33.564 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:46:33.569 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 4.7597ms
+2024-08-19 21:46:33.651 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:46:33.711 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.AuthenticationController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:46:33.733 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 82.6087ms
+2024-08-19 21:50:13.643 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:50:13.778 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:50:13.788 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:50:13.790 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:50:13.791 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:50:13.792 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:50:13.905 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:50:13.993 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 88.4676ms
+2024-08-19 21:50:14.016 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:50:14.021 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 4.4579ms
+2024-08-19 21:50:14.110 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:50:14.162 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoApi.Controllers.AuthenticationController.Clear (TodoApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-19 21:50:14.180 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 69.4499ms
+2024-08-19 21:51:39.951 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:51:40.097 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:51:40.102 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:51:40.104 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:51:40.104 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:51:40.105 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:51:40.694 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:51:40.779 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 85.7109ms
+2024-08-19 21:51:40.796 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:51:40.799 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 2.9482ms
+2024-08-19 21:51:40.881 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:51:40.960 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.0366ms
+2024-08-19 21:52:35.031 +02:00 [INF] User profile is available. Using 'C:\Users\adrian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 21:52:35.178 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-19 21:52:35.179 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-19 21:52:35.188 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-19 21:52:35.189 +02:00 [INF] Hosting environment: Development
+2024-08-19 21:52:35.189 +02:00 [INF] Content root path: D:\Sync\wiedza\informatyka\iamtimcorey\web_api_from_start_to_finish\09_building_an_Api\kod\TodoApp\TodoApi
+2024-08-19 21:52:35.299 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-19 21:52:35.395 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 96.0798ms
+2024-08-19 21:52:35.419 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-19 21:52:35.422 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 3.0574ms
+2024-08-19 21:52:35.501 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-19 21:52:35.604 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.5386ms

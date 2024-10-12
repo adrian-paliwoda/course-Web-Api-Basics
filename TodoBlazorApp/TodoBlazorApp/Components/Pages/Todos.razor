@@ -1,0 +1,92 @@
+﻿@page "/todos"
+@rendermode InteractiveServer
+@using System.Net.Http.Headers
+@inject IHttpClientFactory factory
+@inject Token tokenInfo
+
+<PageTitle>ToDos</PageTitle>
+
+@if (!isLoggedIn)
+{
+    <h1>ToDo list</h1>
+    <button class="btn btn-primary" @onclick="FetchTodos">Get all ToDos</button>
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="h3">
+            @errorMessage
+        </div>
+    }
+    
+    @if (todos is not null)
+    {
+        @foreach (var todo in todos)
+        {
+            if (todo.IsComplete)
+            {
+                <div class="h2">@todo.Task (Completed)</div>
+            }
+            else
+            {
+                <div class="h2">
+                    @todo.Task
+                    <button class="btn btn-sm btn-primary"
+                            @onclick="() => CompleteTodo(todo)"
+                            >Complete</button>
+                </div>
+            }
+        }
+    }
+}
+else
+{
+    <h1>Please Log in</h1>
+}
+
+
+@code {
+    private List<Todo>? todos;
+    private bool isLoggedIn;
+    private string errorMessage;
+
+    protected override void OnInitialized()
+    {
+        isLoggedIn = !string.IsNullOrEmpty(tokenInfo.TokenValue) && !string.IsNullOrWhiteSpace(tokenInfo.TokenValue);
+    }
+
+    private async Task FetchTodos()
+    {
+        try
+        {
+            var client = factory.CreateClient("todoApi");
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", tokenInfo.TokenValue);
+
+            todos = await client.GetFromJsonAsync<List<Todo>>("todos");
+        }
+        catch (Exception e)
+        {
+            errorMessage = e.Message;
+        }
+        
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private async Task CompleteTodo(Todo todo)
+    {
+        try
+        {
+            var client = factory.CreateClient("todoApi");
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", tokenInfo.TokenValue);
+
+            await client.PutAsJsonAsync<string>($"todos/{todo.Id}/Complete", "");
+            
+            todo.IsComplete = true;
+        }
+        catch (Exception e)
+        {
+            errorMessage = e.Message;
+        }
+
+        await InvokeAsync(StateHasChanged);
+    }
+
+}

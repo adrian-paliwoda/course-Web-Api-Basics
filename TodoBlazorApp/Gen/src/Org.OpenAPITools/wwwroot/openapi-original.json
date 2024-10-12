@@ -1,0 +1,320 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "Todo API",
+    "version" : "v1"
+  },
+  "servers" : [ {
+    "url" : "/"
+  } ],
+  "security" : [ {
+    "Bearer" : [ ]
+  } ],
+  "paths" : {
+    "/api/Authentication/token" : {
+      "post" : {
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/AuthenticationDate"
+              }
+            },
+            "text/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/AuthenticationDate"
+              }
+            },
+            "application/*+json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/AuthenticationDate"
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "text/plain" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              },
+              "application/json" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              },
+              "text/json" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Authentication" ]
+      }
+    },
+    "/api/Todos" : {
+      "get" : {
+        "operationId" : "Get all tasks",
+        "responses" : {
+          "200" : {
+            "content" : {
+              "text/plain" : {
+                "schema" : {
+                  "items" : {
+                    "$ref" : "#/components/schemas/Todo"
+                  },
+                  "type" : "array"
+                }
+              },
+              "application/json" : {
+                "schema" : {
+                  "items" : {
+                    "$ref" : "#/components/schemas/Todo"
+                  },
+                  "type" : "array"
+                }
+              },
+              "text/json" : {
+                "schema" : {
+                  "items" : {
+                    "$ref" : "#/components/schemas/Todo"
+                  },
+                  "type" : "array"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Todos" ]
+      },
+      "post" : {
+        "operationId" : "Create task",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "type" : "string"
+              }
+            },
+            "text/json" : {
+              "schema" : {
+                "type" : "string"
+              }
+            },
+            "application/*+json" : {
+              "schema" : {
+                "type" : "string"
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "content" : {
+              "text/plain" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Todo"
+                }
+              },
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Todo"
+                }
+              },
+              "text/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Todo"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Todos" ]
+      }
+    },
+    "/api/Todos/{todoId}" : {
+      "delete" : {
+        "operationId" : "Delete",
+        "parameters" : [ {
+          "explode" : false,
+          "in" : "path",
+          "name" : "todoId",
+          "required" : true,
+          "schema" : {
+            "format" : "int32",
+            "type" : "integer"
+          },
+          "style" : "simple"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Todos" ]
+      },
+      "get" : {
+        "operationId" : "Get task",
+        "parameters" : [ {
+          "explode" : false,
+          "in" : "path",
+          "name" : "todoId",
+          "required" : true,
+          "schema" : {
+            "format" : "int32",
+            "type" : "integer"
+          },
+          "style" : "simple"
+        } ],
+        "responses" : {
+          "200" : {
+            "content" : {
+              "text/plain" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Todo"
+                }
+              },
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Todo"
+                }
+              },
+              "text/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Todo"
+                }
+              }
+            },
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Todos" ]
+      },
+      "put" : {
+        "operationId" : "Update task",
+        "parameters" : [ {
+          "explode" : false,
+          "in" : "path",
+          "name" : "todoId",
+          "required" : true,
+          "schema" : {
+            "format" : "int32",
+            "type" : "integer"
+          },
+          "style" : "simple"
+        } ],
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "type" : "string"
+              }
+            },
+            "text/json" : {
+              "schema" : {
+                "type" : "string"
+              }
+            },
+            "application/*+json" : {
+              "schema" : {
+                "type" : "string"
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Todos" ]
+      }
+    },
+    "/api/Todos/{todoId}/complete" : {
+      "put" : {
+        "operationId" : "Complete task",
+        "parameters" : [ {
+          "explode" : false,
+          "in" : "path",
+          "name" : "todoId",
+          "required" : true,
+          "schema" : {
+            "format" : "int32",
+            "type" : "integer"
+          },
+          "style" : "simple"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        },
+        "tags" : [ "Todos" ]
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "AuthenticationDate" : {
+        "additionalProperties" : false,
+        "example" : {
+          "password" : "password",
+          "userName" : "userName"
+        },
+        "properties" : {
+          "userName" : {
+            "nullable" : true,
+            "type" : "string"
+          },
+          "password" : {
+            "nullable" : true,
+            "type" : "string"
+          }
+        },
+        "type" : "object"
+      },
+      "Todo" : {
+        "additionalProperties" : false,
+        "example" : {
+          "task" : "task",
+          "id" : 0,
+          "assignedTo" : 6,
+          "isComplete" : true
+        },
+        "properties" : {
+          "id" : {
+            "format" : "int32",
+            "type" : "integer"
+          },
+          "task" : {
+            "nullable" : true,
+            "type" : "string"
+          },
+          "assignedTo" : {
+            "format" : "int32",
+            "type" : "integer"
+          },
+          "isComplete" : {
+            "type" : "boolean"
+          }
+        },
+        "type" : "object"
+      }
+    },
+    "securitySchemes" : {
+      "Bearer" : {
+        "bearerFormat" : "JWT",
+        "description" : "Please insert JWT with Bearer into field",
+        "scheme" : "Bearer",
+        "type" : "http"
+      }
+    }
+  }
+}

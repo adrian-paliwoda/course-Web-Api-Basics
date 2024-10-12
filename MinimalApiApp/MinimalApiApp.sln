@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApi", "MinimalApi\MinimalApi.csproj", "{12459B3B-2184-4DEB-BEE1-E7D3B9CB556A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.DataAccess", "Todo.DataAccess\Todo.DataAccess.csproj", "{86678525-B118-4998-AECE-0E08EAFDF736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Model", "Todo.Model\Todo.Model.csproj", "{45CCB2F2-129F-41E2-A9FA-45500CEF6B3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12459B3B-2184-4DEB-BEE1-E7D3B9CB556A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12459B3B-2184-4DEB-BEE1-E7D3B9CB556A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12459B3B-2184-4DEB-BEE1-E7D3B9CB556A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12459B3B-2184-4DEB-BEE1-E7D3B9CB556A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86678525-B118-4998-AECE-0E08EAFDF736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86678525-B118-4998-AECE-0E08EAFDF736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86678525-B118-4998-AECE-0E08EAFDF736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86678525-B118-4998-AECE-0E08EAFDF736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45CCB2F2-129F-41E2-A9FA-45500CEF6B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CCB2F2-129F-41E2-A9FA-45500CEF6B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CCB2F2-129F-41E2-A9FA-45500CEF6B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CCB2F2-129F-41E2-A9FA-45500CEF6B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

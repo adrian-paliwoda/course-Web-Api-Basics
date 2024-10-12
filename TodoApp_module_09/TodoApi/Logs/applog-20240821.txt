@@ -1,0 +1,680 @@
+2024-08-21 13:39:56.701 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 13:39:56.872 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 13:39:56.952 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 13:39:56.953 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 13:39:56.955 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 13:39:56.955 +02:00 [INF] Hosting environment: Development
+2024-08-21 13:39:56.955 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 13:40:25.398 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/ - null null
+2024-08-21 13:40:25.490 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-21 13:40:25.494 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-21 13:40:25.496 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/ - 401 0 null 98.792ms
+2024-08-21 13:40:25.566 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/favicon.ico - null null
+2024-08-21 13:40:25.574 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-21 13:40:25.574 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-21 13:40:25.575 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/favicon.ico - 401 0 null 8.277ms
+2024-08-21 13:40:34.367 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-21 13:40:34.460 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.7825ms
+2024-08-21 13:40:39.183 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/ - null null
+2024-08-21 13:40:39.186 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-21 13:40:39.187 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-21 13:40:39.187 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/ - 401 0 null 5.4352ms
+2024-08-21 13:40:42.208 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/ - null null
+2024-08-21 13:40:42.209 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/ - 301 0 null 1.5026ms
+2024-08-21 13:40:42.228 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.html - null null
+2024-08-21 13:40:42.292 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.html - 200 null text/html;charset=utf-8 63.6421ms
+2024-08-21 13:40:42.319 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - null null
+2024-08-21 13:40:42.319 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - null null
+2024-08-21 13:40:42.319 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.css - null null
+2024-08-21 13:40:42.421 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - null null
+2024-08-21 13:40:42.421 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/index.js - null null
+2024-08-21 13:40:42.424 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.js - 200 null application/javascript;charset=utf-8 3.2339ms
+2024-08-21 13:40:42.578 +02:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2024-08-21 13:40:42.619 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/index.css - 200 202 text/css 260.0863ms
+2024-08-21 13:40:42.813 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-21 13:40:42.813 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-21 13:40:42.834 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui.css - 200 152034 text/css 495.2723ms
+2024-08-21 13:40:42.834 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-standalone-preset.js - 200 230293 text/javascript 433.4581ms
+2024-08-21 13:40:42.884 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-21 13:40:42.884 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/swagger-ui-bundle.js - 200 1452753 text/javascript 565.8147ms
+2024-08-21 13:40:42.972 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - null null
+2024-08-21 13:40:42.973 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-08-21 13:40:42.973 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/favicon-32x32.png - 200 628 image/png 0.8447ms
+2024-08-21 13:40:43.019 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - null null
+2024-08-21 13:40:43.083 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.4475ms
+2024-08-21 13:41:17.174 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7215/api/Authentication/token - application/json 51
+2024-08-21 13:41:17.181 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 13:41:17.196 +02:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationDate) on controller TodoApi.Controllers.AuthenticationController (TodoApi).
+2024-08-21 13:41:17.231 +02:00 [INF] Executing action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) - Validation state: "Valid"
+2024-08-21 13:41:17.234 +02:00 [INF] Authentication started
+2024-08-21 13:41:17.234 +02:00 [INF] Authentication completed successfully
+2024-08-21 13:41:17.266 +02:00 [INF] Executed action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 29.8675ms.
+2024-08-21 13:41:17.271 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-08-21 13:41:17.274 +02:00 [INF] Executed action TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) in 75.6781ms
+2024-08-21 13:41:17.275 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 13:41:17.275 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7215/api/Authentication/token - 200 null text/plain; charset=utf-8 100.4894ms
+2024-08-21 13:41:32.174 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/api/Todos/getAll - null null
+2024-08-21 13:41:32.175 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-21 13:41:32.176 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-21 13:41:32.176 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/api/Todos/getAll - 401 0 null 1.9853ms
+2024-08-21 13:41:36.290 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/api/Todos/getAll - null null
+2024-08-21 13:41:36.311 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-21 13:41:36.312 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-21 13:41:36.312 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/api/Todos/getAll - 401 0 null 42.0049ms
+2024-08-21 13:41:36.896 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/api/Todos/getAll - null null
+2024-08-21 13:41:36.897 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-21 13:41:36.897 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-21 13:41:36.897 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/api/Todos/getAll - 401 0 null 1.1699ms
+2024-08-21 13:41:37.289 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/api/Todos/getAll - null null
+2024-08-21 13:41:37.310 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-21 13:41:37.310 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-21 13:41:37.310 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/api/Todos/getAll - 401 0 null 21.1247ms
+2024-08-21 13:41:37.768 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/api/Todos/getAll - null null
+2024-08-21 13:41:37.810 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-21 13:41:37.810 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-21 13:41:37.810 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/api/Todos/getAll - 401 0 null 41.5998ms
+2024-08-21 13:41:38.178 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/api/Todos/getAll - null null
+2024-08-21 13:41:38.179 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-21 13:41:38.179 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-21 13:41:38.179 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/api/Todos/getAll - 401 0 null 1.3652ms
+2024-08-21 13:41:38.422 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7215/api/Todos/getAll - null null
+2024-08-21 13:41:38.443 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-21 13:41:38.443 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-21 13:41:38.443 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7215/api/Todos/getAll - 401 0 null 21.1318ms
+2024-08-21 13:43:27.358 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 13:43:27.400 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 13:43:27.404 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 13:43:27.405 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 13:43:27.409 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 13:43:27.446 +02:00 [INF] Loading data from spTodos_GetOneAssigned
+2024-08-21 13:43:42.412 +02:00 [INF] Executed action TodoApi.Controllers.TodosController.Get (TodoApi) in 15007.6643ms
+2024-08-21 13:43:42.413 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 13:43:42.416 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): Name or service not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 startingTimestamp)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at System.Data.SqlClient.SNI.SNITCPHandle.Connect(String serverName, Int32 port, TimeSpan timeout)
+   at System.Data.SqlClient.SNI.SNITCPHandle..ctor(String serverName, Int32 port, Int64 timerExpire, Object callbackObject, Boolean parallel)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 433
+   at Todo.DataAccess.SqlDataAccess.LoadData[T,TU](String storeProcedure, TU parameters, String connectionStringName) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/Todo.DataAccess/SqlDataAccess.cs:line 30
+   at Todo.DataAccess.TodoData.GetOneAssigned(Int32 assignedTo, Int32 todoId) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/Todo.DataAccess/TodoData.cs:line 28
+   at TodoApi.Controllers.TodosController.Get(Int32 todoId) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi/Controllers/TodosController.cs:line 39
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2024-08-21 13:43:42.457 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7215/api/todos/1 - 500 null text/plain; charset=utf-8 15098.4739ms
+2024-08-21 13:46:58.549 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 13:46:58.718 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 13:46:58.793 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 13:46:58.794 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 13:46:58.795 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 13:46:58.795 +02:00 [INF] Hosting environment: Development
+2024-08-21 13:46:58.796 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 13:47:04.604 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 13:47:04.793 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 13:47:04.811 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 13:47:04.831 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 13:47:04.834 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 13:47:04.851 +02:00 [INF] Loading data from spTodos_GetOneAssigned
+2024-08-21 13:47:19.679 +02:00 [INF] Executed action TodoApi.Controllers.TodosController.Get (TodoApi) in 14864.7612ms
+2024-08-21 13:47:19.683 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 13:47:19.687 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): Name or service not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 startingTimestamp)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at System.Data.SqlClient.SNI.SNITCPHandle.Connect(String serverName, Int32 port, TimeSpan timeout)
+   at System.Data.SqlClient.SNI.SNITCPHandle..ctor(String serverName, Int32 port, Int64 timerExpire, Object callbackObject, Boolean parallel)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 433
+   at Todo.DataAccess.SqlDataAccess.LoadData[T,TU](String storeProcedure, TU parameters, String connectionStringName) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/Todo.DataAccess/SqlDataAccess.cs:line 30
+   at Todo.DataAccess.TodoData.GetOneAssigned(Int32 assignedTo, Int32 todoId) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/Todo.DataAccess/TodoData.cs:line 28
+   at TodoApi.Controllers.TodosController.Get(Int32 todoId) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi/Controllers/TodosController.cs:line 39
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2024-08-21 13:47:19.727 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7215/api/todos/1 - 500 null text/plain; charset=utf-8 15123.9992ms
+2024-08-21 13:49:24.120 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 13:49:24.286 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 13:49:24.354 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 13:49:24.355 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 13:49:24.356 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 13:49:24.357 +02:00 [INF] Hosting environment: Development
+2024-08-21 13:49:24.357 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 13:49:32.321 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 13:49:32.459 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '08/21/2024 11:42:17', Current time (UTC): '08/21/2024 11:49:32'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-08-21 13:49:32.471 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '08/21/2024 11:42:17', Current time (UTC): '08/21/2024 11:49:32'.
+2024-08-21 13:49:32.476 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-21 13:49:32.480 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-21 13:49:32.486 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7215/api/todos/1 - 401 0 null 165.9972ms
+2024-08-21 13:49:43.385 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7215/api/Authentication/token/ - application/json 55
+2024-08-21 13:49:43.390 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 13:49:43.405 +02:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationDate) on controller TodoApi.Controllers.AuthenticationController (TodoApi).
+2024-08-21 13:49:43.440 +02:00 [INF] Executing action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) - Validation state: "Valid"
+2024-08-21 13:49:43.442 +02:00 [INF] Authentication started
+2024-08-21 13:49:43.442 +02:00 [INF] Authentication completed successfully
+2024-08-21 13:49:43.454 +02:00 [INF] Executed action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.641ms.
+2024-08-21 13:49:43.459 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-08-21 13:49:43.462 +02:00 [INF] Executed action TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) in 54.3431ms
+2024-08-21 13:49:43.462 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 13:49:43.462 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7215/api/Authentication/token/ - 200 null text/plain; charset=utf-8 77.8799ms
+2024-08-21 13:49:50.639 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 13:49:50.650 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 13:49:50.655 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 13:49:50.656 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 13:49:50.661 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 13:49:50.681 +02:00 [INF] Loading data from spTodos_GetOneAssigned
+2024-08-21 13:50:05.496 +02:00 [INF] Executed action TodoApi.Controllers.TodosController.Get (TodoApi) in 14841.3124ms
+2024-08-21 13:50:05.497 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 13:50:05.502 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): Name or service not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 startingTimestamp)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at System.Data.SqlClient.SNI.SNITCPHandle.Connect(String serverName, Int32 port, TimeSpan timeout)
+   at System.Data.SqlClient.SNI.SNITCPHandle..ctor(String serverName, Int32 port, Int64 timerExpire, Object callbackObject, Boolean parallel)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 433
+   at Todo.DataAccess.SqlDataAccess.LoadData[T,TU](String storeProcedure, TU parameters, String connectionStringName) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/Todo.DataAccess/SqlDataAccess.cs:line 30
+   at Todo.DataAccess.TodoData.GetOneAssigned(Int32 assignedTo, Int32 todoId) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/Todo.DataAccess/TodoData.cs:line 28
+   at TodoApi.Controllers.TodosController.Get(Int32 todoId) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi/Controllers/TodosController.cs:line 39
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2024-08-21 13:50:05.531 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7215/api/todos/1 - 500 null text/plain; charset=utf-8 14892.7792ms
+2024-08-21 13:53:03.295 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 13:53:03.465 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 13:53:03.535 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 13:53:03.535 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 13:53:03.538 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 13:53:03.538 +02:00 [INF] Hosting environment: Development
+2024-08-21 13:53:03.538 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 13:53:06.241 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 13:53:06.387 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 13:53:06.405 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 13:53:06.427 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 13:53:06.430 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 13:53:06.448 +02:00 [INF] Loading data from spTodos_GetOneAssigned
+2024-08-21 13:53:21.311 +02:00 [INF] Executed action TodoApi.Controllers.TodosController.Get (TodoApi) in 14902.5345ms
+2024-08-21 13:53:21.314 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 13:53:21.318 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): Name or service not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 startingTimestamp)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at System.Data.SqlClient.SNI.SNITCPHandle.Connect(String serverName, Int32 port, TimeSpan timeout)
+   at System.Data.SqlClient.SNI.SNITCPHandle..ctor(String serverName, Int32 port, Int64 timerExpire, Object callbackObject, Boolean parallel)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 433
+   at Todo.DataAccess.SqlDataAccess.LoadData[T,TU](String storeProcedure, TU parameters, String connectionStringName) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/Todo.DataAccess/SqlDataAccess.cs:line 30
+   at Todo.DataAccess.TodoData.GetOneAssigned(Int32 assignedTo, Int32 todoId) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/Todo.DataAccess/TodoData.cs:line 28
+   at TodoApi.Controllers.TodosController.Get(Int32 todoId) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi/Controllers/TodosController.cs:line 39
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2024-08-21 13:53:21.358 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7215/api/todos/1 - 500 null text/plain; charset=utf-8 15117.5878ms
+2024-08-21 13:53:58.947 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 13:53:59.105 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 13:53:59.174 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 13:53:59.174 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 13:53:59.179 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 13:53:59.179 +02:00 [INF] Hosting environment: Development
+2024-08-21 13:53:59.179 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 13:54:06.309 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 13:54:06.461 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 13:54:06.479 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 13:54:06.500 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 13:54:06.503 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 13:54:06.523 +02:00 [INF] Loading data from spTodos_GetOneAssigned
+2024-08-21 13:54:21.364 +02:00 [INF] Executed action TodoApi.Controllers.TodosController.Get (TodoApi) in 14880.5014ms
+2024-08-21 13:54:21.367 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 13:54:21.371 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): Name or service not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 startingTimestamp)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at System.Data.SqlClient.SNI.SNITCPHandle.Connect(String serverName, Int32 port, TimeSpan timeout)
+   at System.Data.SqlClient.SNI.SNITCPHandle..ctor(String serverName, Int32 port, Int64 timerExpire, Object callbackObject, Boolean parallel)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 433
+   at Todo.DataAccess.SqlDataAccess.LoadData[T,TU](String storeProcedure, TU parameters, String connectionStringName) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/Todo.DataAccess/SqlDataAccess.cs:line 30
+   at Todo.DataAccess.TodoData.GetOneAssigned(Int32 assignedTo, Int32 todoId) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/Todo.DataAccess/TodoData.cs:line 28
+   at TodoApi.Controllers.TodosController.Get(Int32 todoId) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi/Controllers/TodosController.cs:line 39
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2024-08-21 13:54:21.412 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7215/api/todos/1 - 500 null text/plain; charset=utf-8 15104.1856ms
+2024-08-21 13:56:02.590 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 13:56:02.752 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 13:56:02.820 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 13:56:02.820 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 13:56:02.823 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 13:56:02.824 +02:00 [INF] Hosting environment: Development
+2024-08-21 13:56:02.824 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 13:56:44.198 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7215/api/Authentication/token/ - application/json 55
+2024-08-21 13:56:44.284 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 13:56:44.298 +02:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationDate) on controller TodoApi.Controllers.AuthenticationController (TodoApi).
+2024-08-21 13:56:44.337 +02:00 [INF] Executing action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) - Validation state: "Valid"
+2024-08-21 13:56:44.338 +02:00 [INF] Authentication started
+2024-08-21 13:56:44.339 +02:00 [INF] Authentication completed successfully
+2024-08-21 13:56:44.366 +02:00 [INF] Executed action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 24.68ms.
+2024-08-21 13:56:44.373 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-08-21 13:56:44.378 +02:00 [INF] Executed action TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) in 77.0841ms
+2024-08-21 13:56:44.378 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 13:56:44.380 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7215/api/Authentication/token/ - 200 null text/plain; charset=utf-8 182.7555ms
+2024-08-21 13:56:50.090 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 13:56:50.137 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 13:56:50.142 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 13:56:50.143 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 13:56:50.148 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 13:57:18.041 +02:00 [INF] Loading data from spTodos_GetOneAssigned
+2024-08-21 13:58:08.413 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 13:58:08.577 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 13:58:08.674 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 13:58:08.674 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 13:58:08.676 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 13:58:08.677 +02:00 [INF] Hosting environment: Development
+2024-08-21 13:58:08.677 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 13:58:56.563 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 13:58:56.715 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 13:58:56.734 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 13:58:56.756 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 13:58:56.759 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 13:59:02.824 +02:00 [INF] Loading data from spTodos_GetOneAssigned
+2024-08-21 13:59:38.214 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 13:59:38.369 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 13:59:38.441 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 13:59:38.462 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 13:59:38.484 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 13:59:38.484 +02:00 [INF] Hosting environment: Development
+2024-08-21 13:59:38.484 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 13:59:50.016 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 13:59:50.165 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 13:59:50.184 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 13:59:50.206 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 13:59:50.209 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 13:59:57.127 +02:00 [INF] Loading data from spTodos_GetOneAssigned
+2024-08-21 14:03:59.315 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 14:03:59.483 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 14:03:59.557 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 14:03:59.558 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 14:03:59.560 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 14:03:59.560 +02:00 [INF] Hosting environment: Development
+2024-08-21 14:03:59.560 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 14:04:22.519 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 14:04:22.650 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '08/21/2024 11:57:44', Current time (UTC): '08/21/2024 12:04:22'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-08-21 14:04:22.662 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '08/21/2024 11:57:44', Current time (UTC): '08/21/2024 12:04:22'.
+2024-08-21 14:04:22.667 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-21 14:04:22.672 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-21 14:04:22.677 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7215/api/todos/1 - 401 0 null 159.007ms
+2024-08-21 14:04:27.144 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7215/api/Authentication/token/ - application/json 55
+2024-08-21 14:04:27.152 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 14:04:27.167 +02:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationDate) on controller TodoApi.Controllers.AuthenticationController (TodoApi).
+2024-08-21 14:04:27.206 +02:00 [INF] Executing action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) - Validation state: "Valid"
+2024-08-21 14:04:27.207 +02:00 [INF] Authentication started
+2024-08-21 14:04:27.208 +02:00 [INF] Authentication completed successfully
+2024-08-21 14:04:27.219 +02:00 [INF] Executed action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.9885ms.
+2024-08-21 14:04:27.225 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-08-21 14:04:27.228 +02:00 [INF] Executed action TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) in 57.9414ms
+2024-08-21 14:04:27.228 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 14:04:27.229 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7215/api/Authentication/token/ - 200 null text/plain; charset=utf-8 84.6799ms
+2024-08-21 14:04:33.695 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 14:04:33.705 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 14:04:33.710 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 14:04:33.711 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 14:04:33.716 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 14:04:44.551 +02:00 [INF] Loading data from spTodos_GetOneAssigned
+2024-08-21 14:07:55.140 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 14:07:55.299 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 14:07:55.376 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 14:07:55.376 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 14:07:55.377 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 14:07:55.377 +02:00 [INF] Hosting environment: Development
+2024-08-21 14:07:55.378 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 14:08:04.301 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7215/api/Authentication/token/ - application/json 55
+2024-08-21 14:08:04.387 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 14:08:04.401 +02:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationDate) on controller TodoApi.Controllers.AuthenticationController (TodoApi).
+2024-08-21 14:08:04.440 +02:00 [INF] Executing action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) - Validation state: "Valid"
+2024-08-21 14:08:04.441 +02:00 [INF] Authentication started
+2024-08-21 14:08:04.441 +02:00 [INF] Authentication completed successfully
+2024-08-21 14:08:04.470 +02:00 [INF] Executed action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 24.4867ms.
+2024-08-21 14:08:04.478 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-08-21 14:08:04.483 +02:00 [INF] Executed action TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) in 79.128ms
+2024-08-21 14:08:04.483 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 14:08:04.484 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7215/api/Authentication/token/ - 200 null text/plain; charset=utf-8 183.9927ms
+2024-08-21 14:08:10.001 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 14:08:10.048 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 14:08:10.053 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 14:08:10.054 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 14:08:10.059 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 14:08:13.803 +02:00 [INF] Loading data from spTodos_GetOneAssigned
+2024-08-21 14:09:25.744 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 14:09:25.896 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 14:09:25.967 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 14:09:25.969 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 14:09:25.970 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 14:09:25.971 +02:00 [INF] Hosting environment: Development
+2024-08-21 14:09:25.971 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 14:09:36.882 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 14:09:37.018 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 14:09:37.034 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 14:09:37.054 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 14:09:37.057 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 14:09:41.376 +02:00 [INF] Loading data from spTodos_GetOneAssigned
+2024-08-21 14:11:05.057 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 14:11:05.217 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 14:11:05.291 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 14:11:05.293 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 14:11:05.294 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 14:11:05.294 +02:00 [INF] Hosting environment: Development
+2024-08-21 14:11:05.294 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 14:11:08.680 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 14:11:08.812 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '08/21/2024 12:05:27', Current time (UTC): '08/21/2024 12:11:08'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-08-21 14:11:08.824 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '08/21/2024 12:05:27', Current time (UTC): '08/21/2024 12:11:08'.
+2024-08-21 14:11:08.831 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-21 14:11:08.835 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-21 14:11:08.841 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7215/api/todos/1 - 401 0 null 162.277ms
+2024-08-21 14:11:12.943 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7215/api/Authentication/token/ - application/json 55
+2024-08-21 14:11:12.948 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 14:11:12.964 +02:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationDate) on controller TodoApi.Controllers.AuthenticationController (TodoApi).
+2024-08-21 14:11:13.002 +02:00 [INF] Executing action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) - Validation state: "Valid"
+2024-08-21 14:11:13.003 +02:00 [INF] Authentication started
+2024-08-21 14:11:13.004 +02:00 [INF] Authentication completed successfully
+2024-08-21 14:11:13.016 +02:00 [INF] Executed action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 10.1658ms.
+2024-08-21 14:11:13.021 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-08-21 14:11:13.024 +02:00 [INF] Executed action TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) in 57.8189ms
+2024-08-21 14:11:13.025 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 14:11:13.025 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7215/api/Authentication/token/ - 200 null text/plain; charset=utf-8 81.4289ms
+2024-08-21 14:11:18.995 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 14:11:19.004 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 14:11:19.008 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 14:11:19.010 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 14:11:19.014 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 14:11:26.497 +02:00 [INF] Loading data from spTodos_GetOneAssigned
+2024-08-21 14:12:51.606 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 14:12:51.769 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 14:12:51.855 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 14:12:51.855 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 14:12:51.856 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 14:12:51.857 +02:00 [INF] Hosting environment: Development
+2024-08-21 14:12:51.857 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 14:12:57.866 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 14:12:58.005 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 14:12:58.021 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 14:12:58.042 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 14:12:58.045 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 14:14:05.661 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 14:14:05.828 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 14:14:05.905 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 14:14:05.905 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 14:14:05.947 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 14:14:05.947 +02:00 [INF] Hosting environment: Development
+2024-08-21 14:14:05.947 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 14:17:43.812 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 14:17:43.954 +02:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '08/21/2024 12:12:13', Current time (UTC): '08/21/2024 12:17:43'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-08-21 14:17:43.966 +02:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '08/21/2024 12:12:13', Current time (UTC): '08/21/2024 12:17:43'.
+2024-08-21 14:17:43.971 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-08-21 14:17:43.975 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-21 14:17:43.981 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7215/api/todos/1 - 401 0 null 169.2751ms
+2024-08-21 14:17:48.249 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7215/api/Authentication/token/ - application/json 55
+2024-08-21 14:17:48.257 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 14:17:48.272 +02:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationDate) on controller TodoApi.Controllers.AuthenticationController (TodoApi).
+2024-08-21 14:17:48.309 +02:00 [INF] Executing action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) - Validation state: "Valid"
+2024-08-21 14:17:48.310 +02:00 [INF] Authentication started
+2024-08-21 14:17:48.311 +02:00 [INF] Authentication completed successfully
+2024-08-21 14:17:48.323 +02:00 [INF] Executed action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 10.178ms.
+2024-08-21 14:17:48.329 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-08-21 14:17:48.333 +02:00 [INF] Executed action TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) in 58.515ms
+2024-08-21 14:17:48.334 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 14:17:48.334 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7215/api/Authentication/token/ - 200 null text/plain; charset=utf-8 84.7414ms
+2024-08-21 14:17:54.489 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 14:17:54.499 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 14:17:54.504 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 14:17:54.505 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 14:17:54.510 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 14:18:00.826 +02:00 [INF] Loading data from sptodos_getoneassigned
+2024-08-21 14:18:44.591 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 14:18:44.733 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 14:18:44.808 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 14:18:44.808 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 14:18:44.813 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 14:18:44.814 +02:00 [INF] Hosting environment: Development
+2024-08-21 14:18:44.814 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 14:19:15.626 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 14:19:15.775 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 14:19:15.792 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 14:19:15.813 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 14:19:15.816 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 14:19:18.986 +02:00 [INF] Loading data from sptodos_getoneassigned
+2024-08-21 14:21:35.574 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 14:21:35.738 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 14:21:35.821 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 14:21:35.822 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 14:21:35.825 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 14:21:35.825 +02:00 [INF] Hosting environment: Development
+2024-08-21 14:21:35.846 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 14:21:36.896 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 14:21:37.030 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 14:21:37.046 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 14:21:37.065 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 14:21:37.068 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 14:21:39.890 +02:00 [INF] Loading data from public.sptodos_getoneassigned
+2024-08-21 14:21:40.183 +02:00 [INF] Executed action TodoApi.Controllers.TodosController.Get (TodoApi) in 3132.8759ms
+2024-08-21 14:21:40.185 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 14:21:40.188 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42883: funkcja public.sptodos_getoneassigned(assignedTo => integer, todoId => integer) nie istnieje
+   at Npgsql.NpgsqlConnector.DoReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isPrependedMessage)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadMessage(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications)
+   at Npgsql.NpgsqlConnector.ReadExpecting[T](Boolean async)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async)
+   at Npgsql.NpgsqlDataReader.<NextResultAsync>b__31_0()
+   at Npgsql.NpgsqlCommand.Execute(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.<>c__DisplayClass90_0.<<ExecuteDbDataReaderAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Todo.DataAccess.SqlDataAccess.LoadData[T,TU](String storeProcedure, TU parameters, String connectionStringName) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/Todo.DataAccess/SqlDataAccess.cs:line 31
+   at Todo.DataAccess.TodoData.GetOneAssigned(Int32 assignedTo, Int32 todoId) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/Todo.DataAccess/TodoData.cs:line 28
+   at TodoApi.Controllers.TodosController.Get(Int32 todoId) in /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi/Controllers/TodosController.cs:line 39
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-21 14:21:40.217 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7215/api/todos/1 - 500 null text/plain; charset=utf-8 3322.6704ms
+2024-08-21 14:23:47.635 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 14:23:47.646 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 14:23:47.646 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 14:23:47.647 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 14:23:47.647 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 14:23:50.350 +02:00 [INF] Loading data from public.sptodos_getoneassigned
+2024-08-21 14:29:05.301 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 14:29:05.474 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 14:29:05.543 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 14:29:05.543 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 14:29:05.587 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 14:29:05.587 +02:00 [INF] Hosting environment: Development
+2024-08-21 14:29:05.588 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 14:29:09.421 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7215/api/Authentication/token/ - application/json 55
+2024-08-21 14:29:09.529 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 14:29:09.544 +02:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationDate) on controller TodoApi.Controllers.AuthenticationController (TodoApi).
+2024-08-21 14:29:09.585 +02:00 [INF] Executing action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) - Validation state: "Valid"
+2024-08-21 14:29:09.586 +02:00 [INF] Authentication started
+2024-08-21 14:29:09.587 +02:00 [INF] Authentication completed successfully
+2024-08-21 14:29:09.613 +02:00 [INF] Executed action method TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 24.5994ms.
+2024-08-21 14:29:09.621 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-08-21 14:29:09.625 +02:00 [INF] Executed action TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi) in 78.6436ms
+2024-08-21 14:29:09.625 +02:00 [INF] Executed endpoint 'TodoApi.Controllers.AuthenticationController.Authenticate (TodoApi)'
+2024-08-21 14:29:09.627 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7215/api/Authentication/token/ - 200 null text/plain; charset=utf-8 206.2164ms
+2024-08-21 14:29:16.819 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 14:29:16.865 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 14:29:16.870 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 14:29:16.871 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 14:29:16.876 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 14:29:19.409 +02:00 [INF] Loading data from public.sptodos_getoneassigned
+2024-08-21 14:31:21.228 +02:00 [INF] User profile is available. Using '/home/adrian/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-21 14:31:21.396 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-08-21 14:31:21.489 +02:00 [INF] Now listening on: https://localhost:7215
+2024-08-21 14:31:21.492 +02:00 [INF] Now listening on: http://localhost:5118
+2024-08-21 14:31:21.493 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 14:31:21.493 +02:00 [INF] Hosting environment: Development
+2024-08-21 14:31:21.494 +02:00 [INF] Content root path: /run/media/adrian/data/Sync/wiedza/informatyka/iamtimcorey/web_api_from_start_to_finish/09_building_an_Api/kod/TodoApp/TodoApi
+2024-08-21 14:31:34.655 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7215/api/todos/1 - null null
+2024-08-21 14:31:34.804 +02:00 [INF] Executing endpoint 'TodoApi.Controllers.TodosController.Get (TodoApi)'
+2024-08-21 14:31:34.822 +02:00 [INF] Route matched with {action = "Get", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Todo.Model.Todo]] Get(Int32) on controller TodoApi.Controllers.TodosController (TodoApi).
+2024-08-21 14:31:34.842 +02:00 [INF] Executing action method TodoApi.Controllers.TodosController.Get (TodoApi) - Validation state: "Valid"
+2024-08-21 14:31:34.845 +02:00 [INF] Getting task 1 assigned task for adrian
+2024-08-21 14:31:39.220 +02:00 [INF] Loading data from public.sptodos_getoneassigned
