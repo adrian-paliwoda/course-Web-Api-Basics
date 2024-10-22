@@ -1,5 +1,5 @@
 # Genesis
-Code is based on "Web API From Start to Finish" course
+The code is based on "Web API From Start to Finish" course
 
 [About course](https://www.iamtimcorey.com/courses/webapi-from-start-to-finish/)
 
