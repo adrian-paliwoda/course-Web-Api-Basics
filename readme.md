@@ -13,3 +13,12 @@ The code is based on "Web API From Start to Finish" course
 - REST
 - Cashing
 - Tokens and Claims
+
+
+# Example
+
+## Todo App
+
+### Swagger
+
+![Swagger](./screenshots/todo_swagger.png)
