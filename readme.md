@@ -19,7 +19,7 @@ The code is based on "Web API From Start to Finish" course
 
 ## Todo App
 
-This is a Simple App to manage todo list for users.
+This is a simple app that manages a to-do list for users.
 
 ### Swagger
 
