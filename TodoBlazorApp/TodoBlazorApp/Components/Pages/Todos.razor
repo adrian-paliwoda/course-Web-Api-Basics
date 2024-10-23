@@ -6,7 +6,7 @@
 
 <PageTitle>ToDos</PageTitle>
 
-@if (!isLoggedIn)
+@if (isLoggedIn)
 {
     <h1>ToDo list</h1>
     <button class="btn btn-primary" @onclick="FetchTodos">Get all ToDos</button>
