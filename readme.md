@@ -21,6 +21,10 @@ The code is based on "Web API From Start to Finish" course
 
 This is a simple app that manages a to-do list for users.
 
+### Blazor View
+
+![Blazor](./screenshots/todoApp.png)
+
 ### Swagger
 
 ![Swagger](./screenshots/todo_swagger.png)
